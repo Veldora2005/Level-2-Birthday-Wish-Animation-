@@ -202,7 +202,7 @@ body {
 }
 
 .bulb-glow-red {
-	background-image: url('bulb_red.png');
+	background-image: url('bulb_pink.png');
 	-webkit-animation: bulb_glow_red linear 5s;
 	-moz-animation: bulb_glow_red linear 5s;
 	-o-animation: bulb_glow_red linear 5s;
@@ -219,7 +219,7 @@ body {
 		opacity: 1;
 	}
 	100%{
-		background-image: url('bulb_red.png');
+		background-image: url('bulb_pink.png');
 		opacity: 1;
 	}
 }
@@ -232,7 +232,7 @@ body {
 		opacity: 1;
 	}
 	100%{
-		background-image: url('bulb_red.png');
+		background-image: url('bulb_pink.png');
 		opacity: 1;
 	}
 }
@@ -245,7 +245,7 @@ body {
 		opacity: 1;
 	}
 	100%{
-		background-image: url('bulb_red.png');
+		background-image: url('bulb_pink.png');
 		opacity: 1;
 	}
 }
@@ -258,7 +258,7 @@ body {
 		opacity: 1;
 	}
 	100%{
-		background-image: url('bulb_red.png');
+		background-image: url('bulb_pink.png');
 		opacity: 1;
 	}
 }
@@ -271,7 +271,7 @@ body {
 		opacity: 1;
 	}
 	100%{
-		background-image: url('bulb_red.png');
+		background-image: url('bulb_pink.png');
 		opacity: 1;
 	}
 }
@@ -643,7 +643,7 @@ body {
 }
 
 .bulb-glow-red-after {
-	background-image: url('bulb_red.png');
+	background-image: url('bulb_pink.png');
 	-webkit-animation: bulb_glow_red_after linear 1.2s infinite;
 	-moz-animation: bulb_glow_red_after linear 1.2s infinite;
 	-o-animation: bulb_glow_red_after linear 1.2s infinite;
@@ -656,7 +656,7 @@ body {
 		background-image: url('bulb.png');
 	}
 	50%{
-		background-image: url('bulb_red.png');
+		background-image: url('bulb_pink.png');
 	}
 	100%{
 		background-image: url('bulb.png');
@@ -667,7 +667,7 @@ body {
 		background-image: url('bulb.png');
 	}
 	50%{
-		background-image: url('bulb_red.png');
+		background-image: url('bulb_pink.png');
 	}
 	100%{
 		background-image: url('bulb.png');
@@ -678,7 +678,7 @@ body {
 		background-image: url('bulb.png');
 	}
 	50%{
-		background-image: url('bulb_red.png');
+		background-image: url('bulb_pink.png');
 	}
 	100%{
 		background-image: url('bulb.png');
@@ -689,7 +689,7 @@ body {
 		background-image: url('bulb.png');
 	}
 	50%{
-		background-image: url('bulb_red.png');
+		background-image: url('bulb_pink.png');
 	}
 	100%{
 		background-image: url('bulb.png');
@@ -700,7 +700,7 @@ body {
 		background-image: url('bulb.png');
 	}
 	50%{
-		background-image: url('bulb_red.png');
+		background-image: url('bulb_pink.png');
 	}
 	100%{
 		background-image: url('bulb.png');
