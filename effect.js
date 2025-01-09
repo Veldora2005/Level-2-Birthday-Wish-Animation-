@@ -45,6 +45,7 @@ $('document').ready(function(){
 	});
 
 	$('#bannar_coming').click(function(){
+		$('.birthday_girl1').addClass('birthday-visible');
 		$('.bannar').addClass('bannar-come');
 		$(this).fadeOut('slow').delay(6000).promise().done(function(){
 			$('#balloons_flying').fadeIn('slow');
@@ -125,6 +126,7 @@ $('document').ready(function(){
 	});	
 
 	$('#cake_fadein').click(function(){
+		$('.birthday_girl2').addClass('birthday-hidden');
 		$('.cake').fadeIn('slow');
 		$(this).fadeOut('slow').delay(3000).promise().done(function(){
 			$('#light_candle').fadeIn('slow');
@@ -185,13 +187,12 @@ $('document').ready(function(){
 			else{
 				msgLoop(i);
 			}			
-
 		});
-			// body...
+			// body.../
 		}
 		
 		msgLoop(0);
-		
+		// $('#birthday_girl3').addClass('birthday-visible');
 	});
 });
 
