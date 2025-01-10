@@ -977,32 +977,17 @@ audio {
 	-ms-transform:translate(0px,-500px);
 	transform:translate(0px,-500px);
 
-}
-.birthday_girl{
-	visibility: hidden;
-     }
+} 
 .birthday-hidden{
-    visibility: hidden;
+    /* visibility: hidden; */
 	opacity: 0;
-    transition: opacity 1s ease;
+    /* transition: opacity 1s ease; */
 	 }
 .birthday-visible{
-    visibility: visible;
-	opacity: 0; 
-	animation: fadeIn 4s forwards; 
+	opacity: 1;
+    transition: opacity 5s ease;
      } 
-@keyframes visible { 
-	to { opacity: 1; }
-     } 
-
-@keyframes fadeIn {
-	from {
-	  opacity: 0;
-	}
-	to {
-	  opacity: 1;
-	}
-  }
+	
   @keyframes bounce {
 	0%, 100% {
 	  transform: translateY(0);
@@ -1091,7 +1076,7 @@ audio {
 	100% {
 		-ms-transform:translate(0px,0px);
 	}
-}o
+}
 @keyframes bannar_come {
 	0%{
 		transform:translate(0px,-1000px);
@@ -1099,7 +1084,7 @@ audio {
 	33%{
 		transform:translate(0px,0px);
 		transform:rotate(10deg);
-		/*-webkit-transform:scale(1.5);*/
+		/* -webkit-transform:scale(1.5); */
 	}
 	66% {
 		transform:translate(0px,100px);
@@ -1127,6 +1112,9 @@ audio {
 	color: #BF4136;
 	text-shadow: 5px 5px 5px #FFF;
 	display: none;
+}
+.hide{
+	visibility: hidden;
 }
 #b1,#b11 {
 	background-image: url('b1.png');
@@ -1344,3 +1332,7 @@ audio {
     		-webkit-transform: scale(0.9);
     	}
     }*/
+
+
+
+
